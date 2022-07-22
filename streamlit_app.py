@@ -20,3 +20,6 @@ streamlit.dataframe(my_fruit_list)
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
 # Display the table on the page.
+
+#picker works but with numbers. lets give options to pick fruits by name
+my_fruit_list = my_fruit_list.set_index('Fruit')

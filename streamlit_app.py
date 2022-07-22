@@ -8,5 +8,5 @@ streamlit.text('hard-boiled free-ranged egg')
 
 streamlit.header('fruit smoothie')
 streamlit.text('apple milkshake')
-streamlit.text('banana milkshake')
+streamlit.text('U+1F34C banana milkshake')
 streamlit.text('orange juice')

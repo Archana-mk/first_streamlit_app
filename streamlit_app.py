@@ -5,3 +5,8 @@ streamlit.header('Breakfast Menu')
 streamlit.text('Omega 3 & blueberry oatmeal')
 streamlit.text('kale, spinach & rocket smoothie')
 streamlit.text('hard-boiled free-ranged egg')
+
+streamlit.header('fruit smoothie')
+streamlit.text('apple milkshake')
+streamlit.text('banana milkshake')
+streamlit.text('orange juice')

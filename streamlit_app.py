@@ -41,7 +41,7 @@ try:
     streamlit.error('please select a fruit to get information about.')
 #streamlit.write('The user entered ', fruit_choice)
   else:
-    back_from_function= get_frutyvice_data(fruit_choice)
+    back_from_function= get_fruityvice_data(fruit_choice)
     # converting normalized data into dataframe
     streamlit.dataframe(back_from_function)
 except URLError as e:
